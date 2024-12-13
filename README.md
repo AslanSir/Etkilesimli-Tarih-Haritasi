@@ -1,1 +1,1 @@
-# muratın zenci olduğunu düşünüyorum
+# muratın zenci olduğunu thinkliyorum ama oversız
