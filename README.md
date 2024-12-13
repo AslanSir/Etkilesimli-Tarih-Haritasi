@@ -1,1 +1,1 @@
-# slm
+# muratın zenci olduğunu düşünüyorum
