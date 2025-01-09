@@ -18,13 +18,13 @@ Bu kısımda programın bütün detaylarıyla nasıl düzenlenebileceğini ve ke
 - Bunifupages içerisinde __"haritalar"__ kısmında inaktif haritaları silip, geriye kalan aktif haritanın picturebox'ına kendi haritanızı yükleyin. (Kodu değiştirmeyin)
 - Bunifupages içerisindeki __"Turkiye"__ kısmına girip Türkiye haritasının olduğu picturebox'a kendi haritanızı koyun.
 
-```
-Bilgilendirme: PictureBox'a resim koymak veya değiştirmek için resime tıklayın.
-Sağ üstte çıkan, üzerinde sağa bakan ok işareti olan minik kutuya tıklayın.
-Görüntü seç'e tıklayın.
-Kaynak Bağlamı'nı seçin ve İçe Aktar'a tıklayın.
-Ardından bilgisayarınıza yüklediğiniz fotoğrafı seçin.
-```
+
+> Bilgilendirme: PictureBox'a resim koymak veya değiştirmek için resime tıklayın.
+> Sağ üstte çıkan, üzerinde sağa bakan ok işareti olan minik kutuya tıklayın.
+> Görüntü seç'e tıklayın.
+> Kaynak Bağlamı'nı seçin ve İçe Aktar'a tıklayın.
+> Ardından bilgisayarınıza yüklediğiniz fotoğrafı seçin.
+
 
 Bu sayede kendi istediğiniz haritayı programa yüklemiş olacaksınız.
 
@@ -37,6 +37,7 @@ Bu sayede kendi istediğiniz haritayı programa yüklemiş olacaksınız.
 - Farklı bölgeler eklemek için butonu kopyala-yapıştır yapın ve başka bir yuvarlak butondan kodları alıp aynısını yeni oluşturduğunuz butona ekleyin. Ardından aynı yöntemle istediğiniz savaşları o butona ekleyin.
 - Bu sayede yeni savaşlar eklemiş oldunuz.
 
+### Savaşlara bilgi kutusu ekleme
 - Sırada eklemiş olduğunuz savaşların bilgi kutusunu eklemek var.
 - Bunu yapmak için haritanın alt tarafında bulunan, soru işaretli kutucuğa çift tıklayın. (522. kod satırı)
 - Açılan kod satırında ilk savaşı "if" koşulunda kalan hepsini ise "else if" koşuluna bağlayıp sadece butonlara eklediğiniz savaşların isimlerini yazın. Bu savaşlar bütün butonlar için geçerli. Kısaca eklediğiniz bütün savaşları buraya yazmalısınız.
@@ -73,6 +74,7 @@ savunankayip:*
 - Şablonun örneklerine bu sayfadaki __"Savaşlar"__ klasöründen herhangi bir savaşa tıklayarak bakabilirsiniz. Yazılar iki nokta (:) ile yıldız işareti (*) arasında olmalıdır.
 - Bu sayede eklediğiniz bütün savaşlara bilgi kutusu eklemiş oldunuz.
 
+### Savaş videosunu ekleme
 - Sırada o savaşın animasyonunu oynatmakta.
 - Bunu yapmak için bilgi kutusu butonunun yanında oynatma tuşlu butona basın. (547. kod satırı)
 - Ardından aşağı inin ve 2 uzun çizgi arasında bulunan koşullu kodu kendinize göre ayarlayın:
@@ -101,6 +103,7 @@ kısaca bütün linklerde watch?v= bölümünden sonrası anahtardır. Bazı vid
 ```
 - Ve bu sayede eklediğiniz savaşların videoları oynatılabilir olacak.
 
+### Savaşları arama çubuğuna ekleme
 - Son bir şey daha kaldı, o da arama çubuğunda savaşlarının çıkmasını sağlamak.
 - Bunun için ilk olarak formun sağ tarafında saklanmış minik paneli gerekiyor. (Eğer bulamazsanız kod sayfasından 643. kod satırına gidin.)
 - Ardından üst taraftaki arama kutusuna çift tıklayın. (643. kod satırı)
@@ -120,5 +123,10 @@ Bunlarda örnek (Çalışması için başlarındaki çift taksimi silmeniz gerek
 - O butonun ismini __"butonadi"__ kısmına yazın ve o butona eklediğiniz savaşları da yanına üstte yazan yöntemle ekleyin.
 - Bu sayede arama çubuğunu da bitirmiş olacaksınız.
 
-
+# Son
 Her şey bu kadardı. Bu adımları uygulamak için temel düzeyde Visual Studio'yu ve herhangi bir dilde kodlama bilmeniz gerekiyor. Eğer adımları tek tek uygularsanız programı kendinize göre ayarlayabilir ve değiştirebilirsiniz. Bu rehberde "Ya burayı neden anlatmamış?" dediğiniz yerler anlatmakta zorlandığım yerler. Bu tarz yerleri kullandığım kelimelerle aratıp YouTube veya internet/yazılım forumlarında bulabilirsiniz.
+
+Yazılım ve Rehber: Ali ASLANMİRZA
+Rehber Öğretmen: Emre YILDIRIM
+Kaya Karakaya Fen Lisesi / Merkez / ELAZIĞ
+Etkileşimli Tarih Haritası Projesi
