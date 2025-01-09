@@ -30,7 +30,7 @@ Bu sayede kendi istediğiniz haritayı programa yüklemiş olacaksınız.
 
 ## Savaşları ekleme/değiştirme
 
-- Bunifupages içerisinde __"Turkiye"__ kısmına girip yuvarlak bunifu butonlarıNI yapacağınız savaşın olduğu bölgeye sürükleyin.
+- Bunifupages içerisinde __"Turkiye"__ kısmına girip yuvarlak bunifu butonlarını yapacağınız savaşın olduğu bölgeye sürükleyin.
 - Sürüklediğiniz butona çift tıklayın ve kod kısmına girin.
 - Kod kısmında sadece ``` savaslardropdown.Items.Add("Savaşın Adı"); ``` bulunan kısım(lar)ı silin.
 - Aynı kod parçasını kopyalayarak istediğiniz kadar savaş ekleyin. (Aynı kodu alt alta yapıştırıp savaş ekleyebilirsiniz.)
