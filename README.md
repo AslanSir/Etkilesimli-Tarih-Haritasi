@@ -106,7 +106,7 @@ Bu videonun açılma ayarlarıyla ilgilidir. O kısımları silmelisiniz.
 
 ### Savaşları arama çubuğuna ekleme
 - Son bir şey daha kaldı, o da arama çubuğunda savaşlarının çıkmasını sağlamak.
-- Bunun için ilk olarak formun sağ tarafında saklanmış minik paneli gerekiyor. (Eğer bulamazsanız kod sayfasından 643. kod satırına gidin.)
+- Bunun için ilk olarak formun sağ tarafında saklanmış minik paneli sola doğru genişletmen gerekiyor. (Eğer bulamazsanız kod sayfasından 643. kod satırına gidin.)
 - Ardından üst taraftaki arama kutusuna çift tıklayın. (643. kod satırı)
 - Kod sayfası açıldığında en üstteki kodu düzenlemeniz gerekiyor:
 ```
