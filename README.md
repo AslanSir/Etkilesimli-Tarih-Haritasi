@@ -1,6 +1,6 @@
 # Etkileşimli Tarih Haritası
 
-### Program açık kaynak kodlu ve tamamen düzenlenebilir şekilde __"Ali ASLANMİRZA"__ tarafından kodlanmıştır.
+### Program, açık kaynak kodlu ve tamamen düzenlenebilir şekilde __"Ali ASLANMİRZA"__ tarafından kodlanmıştır.
 
 Bu kısımda programın bütün detaylarıyla nasıl düzenlenebileceğini ve kendi haritanız üzerinde, kendi istediğiniz savaşları kendi videolarınızda nasıl gösterebileceğinizi anlatacağım.
 
@@ -18,16 +18,24 @@ Bu kısımda programın bütün detaylarıyla nasıl düzenlenebileceğini ve ke
 - Bunifupages içerisinde __"haritalar"__ kısmında inaktif haritaları silip, geriye kalan aktif haritanın picturebox'ına kendi haritanızı yükleyin. (Kodu değiştirmeyin)
 - Bunifupages içerisindeki __"Turkiye"__ kısmına girip Türkiye haritasının olduğu picturebox'a kendi haritanızı koyun.
 
+```
+Bilgilendirme: PictureBox'a resim koymak veya değiştirmek için resime tıklayın.
+Sağ üstte çıkan, üzerinde sağa bakan ok işareti olan minik kutuya tıklayın.
+Görüntü seç'e tıklayın.
+Kaynak Bağlamı'nı seçin ve İçe Aktar'a tıklayın.
+Ardından bilgisayarınıza yüklediğiniz fotoğrafı seçin.
+```
+
 Bu sayede kendi istediğiniz haritayı programa yüklemiş olacaksınız.
 
-## Savaşları değiştirme
+## Savaşları ekleme/değiştirme
 
 - Bunifupages içerisinde __"Turkiye"__ kısmına girip yuvarlak bunifu butonları yapacağınız savaşın olduğu bölgeye sürükleyin.
 - Sürüklediğiniz butona çift tıklayın ve kod kısmına girin.
 - Kod kısmında sadece ``` savaslardropdown.Items.Add("Savaşın Adı"); ``` bulunan kısım(lar)ı silin.
 - Aynı kod parçasını kopyalayarak istediğiniz kadar savaş ekleyin. (Aynı kodu alt alta yapıştırıp savaş ekleyebilirsiniz.)
 - Farklı bölgeler eklemek için butonu kopyala-yapıştır yapın ve başka bir yuvarlak butondan kodları alıp aynısını yeni oluşturduğunuz butona ekleyin. Ardından aynı yöntemle istediğiniz savaşları o butona ekleyin.
-- Bu sayede o bölgede yaşanan birden fazla savaşı tek butona eklemiş oldunuz.
+- Bu sayede yeni savaşlar eklemiş oldunuz.
 
 - Sırada eklemiş olduğunuz savaşların bilgi kutusunu eklemek var.
 - Bunu yapmak için haritanın alt tarafında bulunan, soru işaretli kutucuğa çift tıklayın. (522. kod satırı)
@@ -94,4 +102,23 @@ kısaca bütün linklerde watch?v= bölümünden sonrası anahtardır. Bazı vid
 - Ve bu sayede eklediğiniz savaşların videoları oynatılabilir olacak.
 
 - Son bir şey daha kaldı, o da arama çubuğunda savaşlarının çıkmasını sağlamak.
-- Bunun için ilk olarak formun sağ tarafında saklanmış minik paneli 
+- Bunun için ilk olarak formun sağ tarafında saklanmış minik paneli gerekiyor. (Eğer bulamazsanız kod sayfasından 643. kod satırına gidin.)
+- Ardından üst taraftaki arama kutusuna çift tıklayın. (643. kod satırı)
+- Kod sayfası açıldığında en üstteki kodu düzenlemeniz gerekiyor:
+```
+Dictionary<BunifuButton2, List<string>> butonSavaslar = new Dictionary<BunifuButton2, List<string>>
+            {
+Değiştirmeniz, kopyala-yapıştır yapmanız gereken satır --->{ bunifuButton1, new List<string> { "Sakarya Meydan Muharebesi", "Deneme Savaşı","BLABLA"} },
+Bunlarda örnek (Çalışması için başlarındaki çift taksimi silmeniz gerekiyor.)--->//{ butonadi, new List<string> { "İstanbul'un Fethi (1453)", "Çanakkale Savaşı" } },
+                                                                                //{ butonadi, new List<string> { "Malazgirt Meydan Muharebesi" } },
+                                                                                // Bu şekilde yeni butonlara yeni maddeler ekleyebilirsiniz.
+            };
+```
+- Yapmanız gereken __"Dictionary"__ içindeki kodda her bir savaş butonu (yuvarlak buton) için işaretlenen satırı kopyala-yapıştır ile eklemeniz.
+- Sadece bu kod satırında en baştaki buton adını değiştirip bir yuvarlak butonun ismini oraya yazmanız ve yazdığınız isimdeki butonun savaşlarını, yanına çift tırnak içinde virgülle ayırarak eklemeniz.
+- Bir butonun ismini öğrenmek için o butona bir kez sol tıklamanız gerekmektedir. Ardından sağ tarafta __"özellikler (properties)"__ penceresinde, en üstte o butonun ismi gözükecektir.
+- O butonun ismini __"butonadi"__ kısmına yazın ve o butona eklediğiniz savaşları da yanına üstte yazan yöntemle ekleyin.
+- Bu sayede arama çubuğunu da bitirmiş olacaksınız.
+
+
+Her şey bu kadardı. Bu adımları uygulamak için temel düzeyde Visual Studio'yu ve herhangi bir dilde kodlama bilmeniz gerekiyor. Eğer adımları tek tek uygularsanız programı kendinize göre ayarlayabilir ve değiştirebilirsiniz. Bu rehberde "Ya burayı neden anlatmamış?" dediğiniz yerler anlatmakta zorlandığım yerler. Bu tarz yerleri kullandığım kelimelerle aratıp YouTube veya internet/yazılım forumlarında bulabilirsiniz.
