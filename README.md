@@ -127,7 +127,7 @@ Bunlarda örnek (Çalışması için başlarındaki çift taksimi silmeniz gerek
 # Son
 Her şey bu kadardı. Bu adımları uygulamak için temel düzeyde Visual Studio'yu ve herhangi bir dilde kodlama bilmeniz gerekiyor. Eğer adımları tek tek uygularsanız programı kendinize göre ayarlayabilir ve değiştirebilirsiniz. Bu rehberde "Ya burayı neden anlatmamış?" dediğiniz yerler anlatmakta zorlandığım yerler. Bu tarz yerleri kullandığım kelimelerle aratıp YouTube veya internet/yazılım forumlarında bulabilirsiniz.
 
-> Yazılım ve Rehber: Ali ASLANMİRZA
-> Rehber Öğretmen: Emre YILDIRIM
-> Kaya Karakaya Fen Lisesi / Merkez / ELAZIĞ
-> Etkileşimli Tarih Haritası Projesi
+> - Yazılım ve Rehber: Ali ASLANMİRZA
+> - Rehber Öğretmen: Emre YILDIRIM
+> - Kaya Karakaya Fen Lisesi / Merkez / ELAZIĞ
+> - Etkileşimli Tarih Haritası Projesi
