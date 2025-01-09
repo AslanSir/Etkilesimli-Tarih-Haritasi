@@ -40,7 +40,7 @@ Bu sayede kendi istediğiniz haritayı programa yüklemiş olacaksınız.
 ### Savaşlara bilgi kutusu ekleme
 - Sırada eklemiş olduğunuz savaşların bilgi kutusunu eklemek var.
 - Bunu yapmak için haritanın alt tarafında bulunan, soru işaretli kutucuğa çift tıklayın. (522. kod satırı)
-- Açılan kod satırında ilk savaşı "if" koşulunda kalan hepsini ise "else if" koşuluna bağlayıp sadece butonlara eklediğiniz savaşların isimlerini yazın. Bu savaşlar bütün butonlar için geçerli. Kısaca eklediğiniz bütün savaşları buraya yazmalısınız.
+- Açılan kod satırında ilk savaşı "if" koşuluna kalan hepsini ise "else if" koşuluna bağlayıp sadece butonlara eklediğiniz savaşların isimlerini yazın. Bu savaşlar bütün butonlar için geçerli. Kısaca eklediğiniz bütün savaşları buraya yazmalısınız.
 ```
 if (savaslardropdown.Text == "Eklediğiniz savaşın ismi")
             {
