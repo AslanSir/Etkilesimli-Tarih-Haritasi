@@ -1,1 +1,4 @@
-# muratın zenci olduğunu thinkliyorum ama oversız
+# Etkileşimli Tarih Haritası
+## Kaya Karayakaya Fen Lisesi
+
+### Tamamen editlenebilir.
