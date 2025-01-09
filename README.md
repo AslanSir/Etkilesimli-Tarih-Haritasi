@@ -2,7 +2,7 @@
 
 ### Program, açık kaynak kodlu ve tamamen düzenlenebilir şekilde __"Ali ASLANMİRZA"__ tarafından kodlanmıştır.
 
-Bu kısımda programın bütün detaylarıyla nasıl düzenlenebileceğini ve kendi haritanız üzerinde, kendi istediğiniz savaşları kendi videolarınızda nasıl gösterebileceğinizi anlatacağım.
+Bu rehberde programın üstünkörü olarak nasıl düzenlenebileceğini ve kendi haritanız üzerinde, kendi istediğiniz savaşları kendi videolarınızda nasıl gösterebileceğinizi anlatacağım.
 
 ## Başlangıç
 
