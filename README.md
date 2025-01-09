@@ -8,8 +8,8 @@ Bu rehberde programın üstünkörü olarak nasıl düzenlenebileceğini ve kend
 
 - İlk başta kodu açmak ve düzenlemek için bilgisayarınızda __"Visual Studio"__ kurulu olmalı. Proje Visual Studio 2022'de kodlandı fakat diğer sürümlerle de birkaç küçük ayarla açabilirsiniz.
 - Üstteki bölümden kodun tamamını .rar uzantılı olarak yüklemek için __"Program"__ klasörüne girin ve parça parça olan .rar uzantılı dosyaların hepsini indirin.
-- İndirdiğiniz bütün dosyaları tek bir klasöre atın ve hepsine tek tek sağ tıklayıp __"Buraya ayıkla"__ seçeneğine tıklayın.
-- Ardından .sln uzantılı dosyaya çift tıklayarak programı Visual Studio üzerinden açın.
+- İndirdiğiniz bütün dosyaların hepsini birden seçip __"Buraya ayıkla"__ seçeneğine tıklayın.
+- Ardından çıkacak __"Etkileşimli Tarih Haritası"__ klasöründeki .sln uzantılı dosyaya çift tıklayarak programı Visual Studio üzerinden açın.
 - Projenin bütün sayfaları formun ortasındaki __"bunifuPages1"__ in içerisinde. Bu sayfalara bunifupages'in sol altındaki (ayarlı değilse sol üstündeki) beyaz yazılı butonlarla ulaşabilirsiniz.
 
 (Bunifu crack, yani açıp kodu düzenlemeniz için bunifu lisansına gerek yok.)
