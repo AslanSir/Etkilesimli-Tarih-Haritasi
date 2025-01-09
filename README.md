@@ -26,6 +26,7 @@ Bu sayede kendi istediğiniz haritayı programa yüklemiş olacaksınız.
 - Sürüklediğiniz butona çift tıklayın ve kod kısmına girin.
 - Kod kısmında sadece ``` savaslardropdown.Items.Add("Savaşın Adı"); ``` bulunan kısım(lar)ı silin.
 - Aynı kod parçasını kopyalayarak istediğiniz kadar savaş ekleyin. (Aynı kodu alt alta yapıştırıp savaş ekleyebilirsiniz.)
+- Farklı bölgeler eklemek için butonu kopyala-yapıştır yapın ve başka bir yuvarlak butondan kodları alıp aynısını yeni oluşturduğunuz butona ekleyin. Ardından aynı yöntemle istediğiniz savaşları o butona ekleyin.
 - Bu sayede o bölgede yaşanan birden fazla savaşı tek butona eklemiş oldunuz.
 
 - Sırada eklemiş olduğunuz savaşların bilgi kutusunu eklemek var.
@@ -43,9 +44,54 @@ if (savaslardropdown.Text == "Eklediğiniz savaşın ismi")
 
             }
 ```
-- Koşulun içindeki __"veriTaratVeAktar"__ fonksiyonunun içindeki değeri kendiniz ayarlayın. Bu ayarlayacağınız sayfa örnekteki linkteki ve bu projenin sayfasındaki __"Savaşlar"__ klasöründeki savaşlardan birinin şablonunu içeriyor olmalı. Şablon şu şekilde:
+- Koşulun içindeki __"veriTaratVeAktar"__ fonksiyonunun içindeki __linki__ kendiniz ayarlayın. Bu ayarlayacağınız sayfa örnekteki linkteki ve bu projenin sayfasındaki __"Savaşlar"__ klasöründeki savaşlardan birinin şablonunu içeriyor olmalı. Şablon şu şekilde:
 
 ```
-
+saldiranordu:*  
+savunanordu:*  
+tarih:*  
+savassebebi:*  
+savassonucu:*  
+saldirankomutan:*  
+saldirankaraordusu:*  
+saldirandonanma:*  
+saldirankayip:*
+savunankomutan:*  
+savunankaraordusu:*  
+savunandonanma:*
+savunankayip:*
 
 ```
+- Şablonun örneklerine bu sayfadaki __"Savaşlar"__ klasöründen herhangi bir savaşa tıklayarak bakabilirsiniz. Yazılar iki nokta (:) ile yıldız işareti (*) arasında olmalıdır.
+- Bu sayede eklediğiniz bütün savaşlara bilgi kutusu eklemiş oldunuz.
+
+- Sırada o savaşın animasyonunu oynatmakta.
+- Bunu yapmak için bilgi kutusu butonunun yanında oynatma tuşlu butona basın. (547. kod satırı)
+- Ardından aşağı inin ve 2 uzun çizgi arasında bulunan koşullu kodu kendinize göre ayarlayın:
+```
+  if (secilensavas == "Eklediğiniz Savaş")
+            {
+                videoac("YouTube Video Link Anahtarı");
+            }
+  else if (secilensavas == "Eklediğiniz savaş")
+            {
+                videoac("YouTube Video Link Anahtarı");
+            }
+  else if (secilensavas == "Eklediğiniz savaş")
+            {
+                videoac("0IMvXXmuwJ0");
+            }
+```
+
+- YouTube video link anahtarı kısmına o savaşta açılmasını istediğiniz videonun anahtarını girin:
+```
+Örneğin tam linki bu olan bir videonun: https://www.youtube.com/watch?v=0IMvXXmuwJ0
+
+anahtarı budur: 0IMvXXmuwJ0
+
+kısaca bütün linklerde watch?v= bölümünden sonrası anahtardır. Bazı videolarda bu kısımda bazı ek işaretler bulunabilir. Bu videonun açılma ayarlarıyla ilgilidir. O kısımları silmelisiniz.
+```
+- Ve bu sayede eklediğiniz savaşların videoları oynatılabilir olacak.
+
+- Son bir şey daha kaldı, o da arama çubuğunda savaşlarının çıkmasını sağlamak.
+- Bunun için ilk olarak formun sağ tarafında saklanmış minik paneli 
