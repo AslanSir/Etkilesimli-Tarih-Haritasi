@@ -119,9 +119,9 @@ Bunlarda örnek (Çalışması için başlarındaki çift taksimi silmeniz gerek
             };
 ```
 - Yapmanız gereken __"Dictionary"__ içindeki kodda her bir savaş butonu (yuvarlak buton) için işaretlenen satırı kopyala-yapıştır ile eklemeniz.
-- Sadece bu kod satırında en baştaki buton adını değiştirip bir yuvarlak butonun ismini oraya yazmanız ve yazdığınız isimdeki butonun savaşlarını, yanına çift tırnak içinde virgülle ayırarak eklemeniz.
+- Sadece bu kod satırında en baştaki buton adını değiştirip bir yuvarlak butonun ismini oraya yazmanız ve yazdığınız isimdeki butonun savaşlarını, yanına çift tırnak içinde virgülle ayırarak eklemeniz gerekiyor.
 - Bir butonun ismini öğrenmek için o butona bir kez sol tıklamanız gerekmektedir. Ardından sağ tarafta __"özellikler (properties)"__ penceresinde, en üstte o butonun ismi gözükecektir.
-- O butonun ismini __"butonadi"__ kısmına yazın ve o butona eklediğiniz savaşları da yanına üstte yazan yöntemle ekleyin.
+- O butonun ismini __"butonadi"__ kısmına yazın ve o butona eklediğiniz savaşları da, yanına üstte yazan yöntemle ekleyin.
 - Bu sayede arama çubuğunu da bitirmiş olacaksınız.
 
 # Son
