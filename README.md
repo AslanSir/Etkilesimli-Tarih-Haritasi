@@ -99,7 +99,8 @@ savunankayip:*
 
 anahtarı budur: 0IMvXXmuwJ0
 
-kısaca bütün linklerde watch?v= bölümünden sonrası anahtardır. Bazı videolarda bu kısımda bazı ek işaretler bulunabilir. Bu videonun açılma ayarlarıyla ilgilidir. O kısımları silmelisiniz.
+kısaca bütün linklerde watch?v= bölümünden sonrası anahtardır. Bazı videolarda bu kısımda bazı ek işaretler bulunabilir.
+Bu videonun açılma ayarlarıyla ilgilidir. O kısımları silmelisiniz.
 ```
 - Ve bu sayede eklediğiniz savaşların videoları oynatılabilir olacak.
 
