@@ -2,7 +2,7 @@
 
 ### Program, açık kaynak kodlu ve tamamen düzenlenebilir şekilde __"Ali ASLANMİRZA"__ tarafından kodlanmıştır.
 
-Bu rehberde programın üstünkörü olarak nasıl düzenlenebileceğini ve kendi haritanız üzerinde, kendi istediğiniz savaşları kendi videolarınızda nasıl gösterebileceğinizi anlatacağım.
+Bu rehberde programın üstünkörü olarak nasıl düzenlenebileceğini ve kendi haritanız üzerinde, kendi istediğiniz savaşları kendi videolarınızda nasıl gösterebileceğinizi anlatacağım. Bunu yapmak için temel düzeyde Visual Studio ve herhangi bir yazılım dili (C, C+, Python, C#) bilmeniz gerekir. Adımları uygulamanız için temel olarak bazı basit kodların (koşul vs.) mantığını biliyor olmanız gerekiyor. Bu her dilde olduğu için hangi dili bildiğiniz çok fark etmiyor.
 
 ## Başlangıç
 
